@@ -1,0 +1,46 @@
+
+
+.main {
+    margin-top: 100px;    
+}
+
+.logo-img {
+    display: block; /* vertical placed elements and eats up the balance white space  */ 
+    width: 300px; /* when we look google clone image , we find google image much smaller than search bar  ( google 300px < search bar 400px )  */ 
+    margin-bottom: 1px; /* after google image there should be some space between search bar  */ 
+    margin-left: auto; /*centering */ 
+    margin-right: auto; /*centering */ 
+}
+
+.search-input {
+    display: block;
+    width: 400px; /* when we look google clone image , we find google image much smaller than search bar ( google 300px < search bar 400px )*/ 
+    margin-left: auto;/*centering */ 
+    margin-right: auto;/*centering */ 
+    line-height: 24px; /* height of the search bar  */ 
+    padding-top: 10px;/*padding provides white space inside the element- here it 10px on top of the element  */ 
+    padding-bottom: 10px;/*padding provides white space inside the element- here it 10px on bottom of the element  */ 
+    padding-left: 30px;/*padding provides white space inside the element- here it 30px on left of the element  */ 
+    padding-right: 30px;/*padding provides white space inside the element- here it 30px on right of the element  */ 
+    border: 1px solid #dfe1e5; /*inorder to provide border to search bar with specifications 1px thickness solid line white colour  */ 
+    border-radius: 24px; /*inorder to soften the sharp border */ 
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 30px;
+    background: #dfe1e5;
+    border: none;
+    padding-top: 8px;/*padding provides white space inside the element- here it 10px on top of the element  */ 
+    padding-bottom: 8px;/*padding provides white space inside the element- here it 10px on top of the element  */ 
+    padding-left: 16px;/*padding provides white space inside the element- here it 10px on top of the element  */ 
+    padding-right: 16px;/*padding provides white space inside the element- here it 10px on top of the element  */ 
+    border-radius: 4px;
+    font-size: 14px;
+}
